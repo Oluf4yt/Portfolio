@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #111;
+  color: #eee;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem 0;
+}
+
+header {
+  background-color: #000;
+  text-align: center;
+  padding: 4rem 0;
+  border-bottom: 1px solid #333;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #00ffd0;
+}
+
+header p {
+  font-size: 1.2rem;
+  color: #bbb;
+}
+
+section h2 {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+  color: #00ffd0;
+}
+
+section#projects p {
+  font-style: italic;
+  color: #888;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+}
+
+.social-links a {
+  color: #66b2ff; /* Bleu clair */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #fff;
+}
+
+/* Email en bleu clair */
+a[href^="mailto:"] {
+  color: #66b2ff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a[href^="mailto:"]:hover {
+  color: #fff;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 0.9rem;
+  color: #666;
+  border-top: 1px solid #222;
+}
+
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+
+.timeline-item {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.timeline-date {
+  min-width: 100px;
+  color: #aaa;
+  font-weight: bold;
+  text-align: right;
+} 
+
+.timeline-content h3 {
+  margin: 0;
+  color: #00ffd0;
+}
+
+.timeline-content p {
+  margin: 0.5rem 0 0;
+  color: #ddd;
+}
+
+/* ===== Style pour les boutons de téléchargement ===== */
+.download-buttons {
+  margin-top: 2rem;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.download-buttons .btn {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  background-color: #00ffd0;
+  color: #111;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.download-buttons .btn:hover {
+  background-color: #00ccaa;
+  color: #fff;
+}
